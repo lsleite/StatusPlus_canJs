@@ -1,0 +1,10 @@
+<li>
+  <a href="javascript://" data-category="all">All (<%= posts.count('all') %>)</a>
+</li>
+<% $.each(categories, function(i, category){ %>
+<li>
+<a href="javascript://" data-category="<%= category.data %>">
+	<%= category.name %> (<%= posts.count(category.data) %>)
+</a>
+</li>
+<% }) %>         

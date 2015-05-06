@@ -1,0 +1,7 @@
+<div id="columns" class="clearfix">
+	<% list(posts.filter(can.route.attr('category')), function(post){ %>
+		<div class="pages" <%= (el)-> el.data('post', post) %>>
+			<%== can.view.render('views/postView.ejs', {post: post, categories: categories}) %>
+		</div>
+	<% }) %>
+</div> 

@@ -1,0 +1,21 @@
+ <div class="span3 block">
+  <div class="view view-first">
+      <a href="javascript://" class="delete" title="remove"><i class="iconDelete"></i></a>
+      <% if(post.id > 5) { %>
+      <div class="new"></div>
+      <% } else { %>
+      <% } %>
+      <div class="tringle"></div>
+      <img src="img/<%= post.category %>.png" alt="" border="0"><div class="mask"></div>
+     
+   </div>
+   <div class="descr">
+      <h5><i class="icon-user"></i> <a href="javascript://"><%= post.name %></a></h5>
+      <div>
+      <span class="pull-left"><i class="icon-tag"></i> Shared with<em class="pls"><%= post.category %></em></span>
+      <span class="pull-right"><i class="icon-time"></i><small class="pls"><%= post.time %></small></span>
+      </div>
+      <p class="textbreak"><%= post.message %></p>
+      <p><a href="javascript://" class="like" title="like">Like <span class="badge"><%= post.attr('like') %></span></a></p>
+   </div>
+</div>
