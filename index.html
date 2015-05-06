@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Status+</title>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+		<link rel="stylesheet" href="css/post.css">  
+	</head>
+	<body>
+	<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand np"><img src="img/logo.png" alt="" border="0"></a>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main" style="height: 1px;">
+        <ul id="filter" class="nav navbar-nav"></ul>
+        <ul class="nav navbar-nav navbar-right"> 
+          <li><a class="btn btn-info mts" href="javascript://" id="new-post"> <i class="icon-plus icon-white"></i> Write Status</a>
+		      </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="bs-docs-section"> 
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="container">Status<sup>+</sup> Post</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+		<div class="container">
+        <div class="col-lg-12"> 
+          <div class="row"> 
+                <div id="post"></div> 
+          </div>
+    			<div class="row"> 
+    					<div id="view-post"></div> 
+    			</div>
+        </div>
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+		<script src="js/can.jquery.js"></script>
+		<script src="js/can.fixture.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+		<script src="js/post.js"></script>	
+    <script src="js/date.js"></script>
+   
+	</body>
+</html>
