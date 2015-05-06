@@ -1,0 +1,364 @@
+body {
+	position: relative;
+	background: url('../img/bg.png') 0 0 repeat;
+	font-family: Arial;
+	color: #888;
+	font-size: 12px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+h1 {
+	font-size: 52px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+#new-post {
+	margin-top: 9px;
+}
+
+#post {
+	display: none;
+}
+
+#filter { font-size: 14px;margin-left:30px;}
+
+.well {
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding: 25px;
+	position: relative;
+    background:none;
+
+}
+
+/*.well .buttons {
+	margin-top: 10px;
+}*/
+
+.well form {
+	margin-bottom: 0;
+}
+
+.well form label {
+	float: left;
+	padding-top: 5px;
+	text-align: right;
+	width: 60px;
+}
+
+.well form input {
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+.well label {
+	font-weight: bold;
+}
+
+.well input, .well select {
+	width: 120px;
+}
+
+ .well select {
+	border: 1px solid #CCC;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #666666;
+}
+
+.well [name="name"] {
+	font-size: 26px;
+	line-height: 26px;
+	height: 26px;
+	margin-bottom: 1px;
+	width: 200px;
+	margin-left: 0;
+}
+
+.well [name="category"]{
+	font-size: 11px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.well .remove {
+	position: absolute;
+	top: 0px;
+	right: 2px;
+}
+
+#create .well .remove {
+	display: none;
+}
+
+.mts {margin-top: 5px; margin-bottom: 5px;}
+ 
+.bs-docs-section {margin-top: 2em;}
+
+.my_block { padding:35px; background:#fff; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); position:relative;}
+
+.block img { width:100% !important;}
+
+#columns .pages { display: inline-block; vertical-align: top;};
+
+#columns:hover .pages:not(:hover) {
+      opacity: 0.4;
+}
+
+.span3 {
+display: block;
+float: left;
+font-family: Arial;
+font-size: 12px; 
+line-height: 18px;
+}
+
+h5 {color: #005580; margin-top: 0 !important; margin-bottom: 0 !important;}
+}
+
+h5 a { vertical-align:text-top;}
+   
+h5 a:hover {color: #005580;}
+
+a:hover {color: #333333;text-decoration: none;}
+
+ul.clearfix {margin-bottom: 10px;}
+
+.pls {padding-left: 5px;}
+
+.mts { margin-top: 3px;}
+
+.np { padding: 0 0 0 0;}
+
+.textbreak {word-break:break-word; clear: both;padding-top: 5px;}
+
+.view {
+   width:100%;
+   float: left;
+   position: relative;
+   text-align: center;
+   cursor: default;
+   background:url('../img/spinner.gif') center center no-repeat #f1f1f1 !important; 
+}
+.view .mask {
+   width:100%;
+   height:100%;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.tringle { background:url('../img/tringle.png'); width:20px; height:13px; position: absolute; bottom:0px; left:45px; z-index:999}
+.featured { background:url('../img/featured.png'); width:50px; height:46px; position: absolute; top:-5px; right:25px; z-index:999;}
+.new { background:url('../img/new.png'); width:50px; height:46px; position: absolute; top:-5px; left:15px; z-index:999;}
+.delete { position: absolute; top:0px; right:2px; z-index:1001; margin: 5px; line-height:8px;}
+.iconDelete { width:8px; height:8px; line-height:8px; vertical-align:top; display:inline-block; background-image:url('../img/close.png'); background-repeat:no-repeat; background-position: 0px 0px;}
+
+.view-first img {
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+ 
+}
+ 
+.view-first:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=40)";
+   filter: alpha(opacity=40);
+   opacity: 40;
+   background-color: rgba(255,255,255, 0.40);
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;   
+ 
+} 
+/*.view-first:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}*/
+
+.descr {
+clear: both;
+padding: 15px !important;
+background: #fff;
+border-color: rgb(105,193,231);
+border-left: 1px solid #EEE;
+border-right: 1px solid #EEE;
+}
+
+@media (min-width: 1200px)
+.span3 {
+width: 270px;
+float: left;
+margin-left: 30px;
+}
+
+.btn, #new-post {
+  color: #FFFFFF;
+  padding: 5px 8px;
+}
+
+.btn:hover, #new-post:hover {
+  color: #333333; 
+}
+
+.well input { border:1px solid #ccc;}
+
+
+@media (min-width: 240px) and (max-width: 469px) {
+h1 {
+	font-size: 36px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+.block {     
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);  
+color: rgb(136, 136, 136);
+margin-top: 20px; 
+margin-bottom: 20px;
+width: 270px;   
+}
+#columns {
+    -moz-column-count: 1;
+    -moz-column-gap:0px;
+    -moz-column-fill: auto; 
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0px;
+    -webkit-column-fill: auto; 
+    column-count: 1;
+    column-gap: 0px;
+    column-fill: auto;   
+}
+.well input[name='name'] {font-size: 14px; line-height: 14px; height: auto; width: 100%;}
+
+.well textarea[name='message'] {font-size: 14px; width: 100%; height: auto;}
+
+.well select[name='category'] {font-size: 14px; width: 200px; height: 25px;}   
+   
+}
+
+@media (min-width: 470px) and (max-width: 757px) {
+h1 {
+	font-size: 36px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+.block {     
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);  
+color: rgb(136, 136, 136);
+margin-top: 20px; 
+margin-left: 50px;
+margin-bottom: 20px;
+width: 320px;   
+}
+#columns {
+    -moz-column-count: 1;
+    -moz-column-gap:0px;
+    -moz-column-fill: auto; 
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0px;
+    -webkit-column-fill: auto; 
+    column-count: 1;
+    column-gap: 0px;
+    column-fill: auto;   
+}
+.well input[name='name'] {font-size: 14px; line-height: 14px; height: auto; width: 100%;}
+
+.well textarea[name='message'] {font-size: 14px; width: 100%; height: auto;}
+
+.well select[name='category'] {font-size: 14px; width: 200px; height: 25px;}   
+   
+}
+
+@media (min-width: 758px) and (max-width: 991px) {
+.block {     
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);  
+color: rgb(136, 136, 136);
+margin-top: 20px;
+margin-left: 30px;
+margin-bottom: 20px;
+width: 280px;   
+}
+#columns {
+    -moz-column-count: 2;
+    -moz-column-gap:0px;
+    -moz-column-fill: auto; 
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0px;
+    -webkit-column-fill: auto; 
+    column-count: 2;
+    column-gap: 0px;
+    column-fill: auto;   
+}
+.well input[name='name'] {font-size: 14px; line-height: 14px; height: auto; width: 100%;}
+
+.well textarea[name='message'] {font-size: 14px; width: 100%; height: auto;}
+
+.well select[name='category'] {font-size: 14px; width: 200px; height: 25px;}    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.block {     
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);  
+color: rgb(136, 136, 136);
+margin-top: 20px;
+margin-bottom: 20px;
+width: 270px;   
+}
+#columns {
+    -moz-column-count: 3;
+    -moz-column-gap:0px;
+    -moz-column-fill: auto; 
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0px;
+    -webkit-column-fill: auto; 
+    column-count: 3;
+    column-gap: 0px;
+    column-fill: auto;   
+}
+.well input[name='name'] {font-size: 14px; line-height: 14px; height: auto; width: 400px}
+
+.well textarea[name='message'] {font-size: 14px; width: 800px; height: auto;}
+
+.well select[name='category'] {font-size: 14px; width: 200px; height: 25px;}   
+
+}
+
+@media (min-width: 1200px) {
+.block {     
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);  
+color: rgb(136, 136, 136);
+margin-top: 20px;
+margin-bottom: 20px;
+width: 270px;   
+}
+#columns {
+    -moz-column-count: 4;
+    -moz-column-gap:0px;
+    -moz-column-fill: auto; 
+    -webkit-column-count: 4;
+    -webkit-column-gap: 0px;
+    -webkit-column-fill: auto; 
+    column-count: 4;
+    column-gap: 0px;
+    column-fill: auto;   
+}
+.well input[name='name'] {font-size: 14px; line-height: 14px; height: auto; width: 400px}
+
+.well textarea[name='message'] {font-size: 14px; width: 100%; height: auto;}
+
+.well select[name='category'] {font-size: 14px; width: 200px; height: 25px;}   
+
+}
